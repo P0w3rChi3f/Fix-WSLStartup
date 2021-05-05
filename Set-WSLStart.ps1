@@ -1,5 +1,5 @@
 
-function Set-WSLAutoStart {
+function Set-WSLStartType {
 
     [CmdletBinding(SupportsShouldProcess = $True)]
     param(

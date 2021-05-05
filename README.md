@@ -26,3 +26,5 @@ I looked at the GUI LxssManager and everything was greyed out.
 Rebooted, and ended up with the same results.
 
 Then I found this [answers.microsoft.com](https://answers.microsoft.com/en-us/windows/forum/windows_10-windows_store/wslregisterdistribution-failed-with-error/dd28f58e-869a-4a33-8b7f-95695371cb0d) site that had the resolution.
+
+Based on that write-up, I created a [PowerShell Function](./Set-WSLStart) to change the start type of the LxssManager via a registry key change.
