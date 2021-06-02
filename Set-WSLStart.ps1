@@ -35,3 +35,4 @@ function Set-WSLStartType {
     END {}  
 }
 
+Set-WSLStartType -StartType 2
